@@ -3,8 +3,37 @@ body {
   padding: 0;
 }
 
-.body_A {
+ul {
+  margin: 0;
+  padding: 0;
+}
 
+.body_A {
+  background-color: #1F2937;
+  height: 400px;
+  padding: 0 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.list_A {
+  display: flex;
+  color: #e5e7eb;
+  font-size: 18px;
+  gap: 24px;
 }
 
 .body_B {
