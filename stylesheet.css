@@ -8,11 +8,19 @@ ul {
   padding: 0;
 }
 
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 8px 24px;
+  border: none;
+  color: #e5e7eb;
+  font-weight: bold;
+}
+
 .body_A {
   background-color: #1F2937;
-  height: 400px;
+  height: 450px;
   padding: 0 150px;
-  color: white;
   display: flex;
   flex-direction: column;
 }
@@ -22,11 +30,12 @@ ul {
   justify-content: space-between;
   align-items: center;
   padding-top: 15px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 
 .logo {
   font-size: 24px;
+  color: #e5e7eb;
 }
 
 .list_A {
@@ -36,8 +45,53 @@ ul {
   gap: 24px;
 }
 
-.body_B {
+.content_A {
+  display: flex;
+  gap: 24px;
+}
 
+.content_A_left {
+  flex: 1;
+}
+
+.content_A_right {
+  flex: 1;
+  background-color: #6e6e6e;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_A {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.text_B {
+  font-size: 18px;
+  color: #E5E7EB;
+  padding-bottom: 12px;
+}
+
+.text_C {
+  color: #e5e7eb;
+}
+
+
+.body_B {
+  background-color: #F9FAF8;
+  height: 450px;
+  padding: 0 150px;
+}
+
+.text_D {
+  text-align: center;
+  padding-top: 45px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 
 .body_C {
